@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class common
 {
 static void common(String word1, String word2)
