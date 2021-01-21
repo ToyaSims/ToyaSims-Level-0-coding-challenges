@@ -1,3 +1,4 @@
+ import java.util.Scanner;
  public class vowels
 {
 	static void vowels(String word)
