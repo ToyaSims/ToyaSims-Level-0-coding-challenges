@@ -1,17 +1,16 @@
-import java.util.Scanner;
 public class Temperature
 {
-	public static int celsius(number)
+	public static int celsius(int number)
 	{
 		int celsius =  number * 9 / 5 + 32;
-        return celsius
+        return celsius;
      
 	}
 
-	public static int Fahrenheit(number)
+	public static int Fahrenheit(int number)
 	{
-        int fahrenheit = number - 32) * 5 / 9;
-		return fahrenheit 
+        int fahrenheit = (number - 32) * 5 / 9;
+		return fahrenheit ;
     
 	}
 
