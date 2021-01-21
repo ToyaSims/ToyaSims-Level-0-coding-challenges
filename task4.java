@@ -1,11 +1,9 @@
 import java.util.Scanner;
 public class even_or_odd 
 {
-    static void even_or_odd(){
+    static void even_or_odd(int num){
 
     Scanner input = new Scanner(System.in);  
-        System.out.println("Please enter number");
-        int num = input.nextInt();
 
         if (num % 2 == 0)
         {
