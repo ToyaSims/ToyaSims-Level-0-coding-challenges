@@ -7,13 +7,13 @@ public class task1
 		int y = 1;
 
 		System.out.println(x);
-		System.out.print(y);
+		System.out.println(y);
 	
 		x += 3;
 		y += x;
 
-		System.out.print(x);
-		System.out.print(y);
+		System.out.println(x);
+		System.out.println(y);
 	
 	}
 }
