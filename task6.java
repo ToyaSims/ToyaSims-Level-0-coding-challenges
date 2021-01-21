@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Maximum
 {
-	public static int maximum (...numbers)
+	public static int maximum (int ...numbers)
 	{
 
          int max = numbers[0]; 
