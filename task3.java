@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class hello
 {
 	static void hello(String name)
