@@ -1,9 +1,6 @@
-import java.util.Scanner;
 public class even_or_odd 
 {
     static void even_or_odd(int num){
-
-    Scanner input = new Scanner(System.in);  
 
         if (num % 2 == 0)
         {
@@ -17,6 +14,6 @@ public class even_or_odd
     }
     public static void main(String[] args)
     {
-        even_or_odd();
+        even_or_odd(6);
     }
 }
