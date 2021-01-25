@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.lang.*;
 public class areaOfATriangle
 {
 	public static int areaOfATriangle (int num1, int num2, int num3)
