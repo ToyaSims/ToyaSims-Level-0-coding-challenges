@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class Maximum
 {
 	public static int maximum (int ...numbers)
@@ -15,7 +14,7 @@ public class Maximum
 
 	public static void main (String[] args)
 	{
-		System.out.print(maximum(1,2,3));
-        System.out.print(maximum(1,2,3,9,90,98,987,67));
+	System.out.print(maximum(1,2,3));
+       
 	}
 }
