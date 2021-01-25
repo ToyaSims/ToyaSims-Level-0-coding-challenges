@@ -1,20 +1,19 @@
-import java.util.Scanner;
 public class Convert
 {
-	public static int convert(num)
+	public static void convert(int num)
 	{
-        int hours,min;
+       int hours,min;
        
         hours = num /60;
      
         min = num % 60;
       
-        return Math.floor(hours) + " hour(s)," + min + " minute(s)";
-    };
-}
+       System.out.print(Math.floor(hours) + " hour(s)," + min + " minute(s)");
+    }
+
 
 	public static void main (String[] args)
 	{
-		System.out.print(convert(71));
+		convert(61);
     }
-
+}
